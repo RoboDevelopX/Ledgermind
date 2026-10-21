@@ -42,8 +42,8 @@ Cloud serverless endpoints, Python, FastAPI, SQLite (FTS5), pandas, APScheduler.
 | Field | Value |
 |---|---|
 | Repository | https://github.com/RoboDevelopX/LedgerMind |
-| Live demo | _add after `make deploy` (see [docs/deploy_nebius.md](docs/deploy_nebius.md))_ |
-| Video | _add the YouTube link after uploading_ |
+| Live demo | Not deployed; run it locally with the [Quick start](README.md#quick-start) |
+| Video | https://youtu.be/VGxJTs_w71s |
 
 ## Video script (3 minutes or less)
 
@@ -78,12 +78,12 @@ Live Nemotron calls could not be made from the build environment, so the first t
       answers a spending question with ledger figures).
 - [x] `make eval`: live runs on 2026-10-14 scored 13/19, 16/19 and, after the fixes, 19/19 (in the README).
 - [x] `make bench`, `make eval-memory`, `make eval-cat`: live results are in the README.
-- [ ] Record the video: `python demo_video/make_video.py` with the app running on live models (or record by hand
+- [x] Record the video: `python demo_video/make_video.py` with the app running on live models (or record by hand
       from the script above). Keep it under 3:00.
-- [ ] Upload to YouTube as **Public** (or Unlisted if the form allows) and put the link in the README and the form.
+- [x] Upload to YouTube as **Public** (or Unlisted if the form allows) and put the link in the README and the form.
 - [ ] Deploy: `REGION=... REGISTRY_PATH=... make deploy` (see [docs/deploy_nebius.md](docs/deploy_nebius.md)).
       Open the URL, load the demo data, ask one question, then add the URL to the README and the form.
-- [ ] Check the repo page shows the MIT licence at the top (GitHub reads `LICENSE` at the root).
+- [x] Check the repo page shows the MIT licence at the top (GitHub reads `LICENSE` at the root).
 - [x] Live observations are in [FEEDBACK.md](FEEDBACK.md#live). Add anything you noticed yourself.
 - [ ] Fill in the form: track **Personal AI**, description above, repo, demo URL, video.
 - [ ] City: pick the Builders & Brews city if you attended one; otherwise leave it blank.
