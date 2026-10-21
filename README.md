@@ -8,8 +8,8 @@
 ![Inference](https://img.shields.io/badge/inference-Nebius%20Token%20Factory-blue)
 ![Tests](https://img.shields.io/badge/tests-95%20passing-brightgreen)
 
-- **Live demo:** _add the URL after deploying (see [Deploy on Nebius](#deploy-on-nebius-ai-cloud))_
-- **Video (3 min):** _add the YouTube link after recording (see [SUBMISSION.md](SUBMISSION.md))_
+- **Video (3 min):** https://youtu.be/VGxJTs_w71s
+- **Try it:** runs offline with no key, see [Quick start](#quick-start)
 - **Measured on live Nemotron:** 19 of 19 finance questions fully correct after fixing what the earlier runs
   found (13/19, then 16/19), with every answer's figures verified by the number guard; categorisation 92-96% with rules + model; memory extraction F1 0.84 (Nano) to 0.91 (Super).
   See [Results](#results).
